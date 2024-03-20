@@ -64,12 +64,40 @@ print("Hello World! Pass this test, please.")
 
 
 
-        #Sets and Dicts 
+        #Sets and Dictionaries 
 # Sequences data in python but the individual elements are unique 
 
     # Sets
 # unindexed, unordered and unchangeable 
 # initiated with set() class constructor 
+
+# set() -> {}
+# set(3,2,3,a,b,a) -> TypeError 
+# set([3,2,3,a,b,a]) -> {2,3,a,b} 
+
+# sets have many of the same methods as lists 
+#   s = {1,2,3}
+#   s.pop() -> 1
+#   s.remove(3) -> {2}
+
+
+    # Dictionaries 
+# Python equivalent of JavaScript obj 
+# Composed of Key/Value pairs 
+# Create dictionaries by placing key value pairs inside curly brackets 
+# Key value pairs must be in string format 
+    # {"key1":"value1", "key2":"value2"}
+
+
+# my_dict = { "key1": 1, "key2": 2 } 
+# my_dict["key2"] -> 2
+# Can access members of dictionary only using bracket notation 
+# Create dictionaries using the dict() class constructor 
+    # dict(x = 1, y = 2) -> {'x': 1, 'y': 2}
+
+
+    # None
+# represents the absence of any value 
 # 
 
 
